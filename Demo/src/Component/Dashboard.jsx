@@ -177,6 +177,18 @@ const Dashboard = () => {
               onDelete={handleDelete}
             />
           ))}
+          
+          {/* Add New Item Card */}
+          <div 
+            onClick={() => setCurrentPage('newMenu')}
+            className="bg-gray-800 rounded-lg shadow-lg cursor-pointer hover:bg-gray-700 transition-all duration-200 flex items-center justify-center border-2 border-dashed border-gray-600 hover:border-yellow-400 min-h-[200px]"
+          >
+            <div className="text-center">
+              <div className="text-6xl text-yellow-400 mb-4">+</div>
+              <p className="text-white text-lg font-medium">Add New Item</p>
+              <p className="text-gray-400 text-sm mt-2">Click to create a new menu item</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
