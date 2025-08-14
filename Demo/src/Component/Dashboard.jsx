@@ -127,7 +127,7 @@ const Dashboard = () => {
       
       <div className="flex-1 p-8">
         <div className="mb-8">
-          <h1 className="text-4xl font-bold text-yellow-400 mb-2">Menu</h1>
+          <h1 className="text-4xl font-bold text-yellow-400 mb-2">Menu And this project is for Demo purpose only</h1>
           <div className="text-white text-lg">SVG</div>
         </div>
 
